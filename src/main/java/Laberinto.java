@@ -15,7 +15,7 @@ public class Laberinto {
         for(fila=0; fila<numeroFilas; fila++){
             for(columna=0; columna<numeroColumnas; columna++){
                 if(laberinto[fila][columna]==1){
-                    grafico.setColor(Color.blue);
+                    grafico.setColor(Color.orange);
                     grafico.fillRect(columna*40,fila*40,anchoBloque,altoBloque);
                     grafico.setColor(Color.black);
                     grafico.drawRect(columna*40,fila*40,anchoBloque,altoBloque);
