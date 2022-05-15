@@ -39,6 +39,7 @@ public class Juego extends JPanel{
     }
     
     public static void main(String[] args){
+        // Ventana del juego
         JFrame miventana = new JFrame("L A B E R I N T O");
         Juego game = new Juego();
         miventana.add(game);
